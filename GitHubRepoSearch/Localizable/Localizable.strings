@@ -1,0 +1,58 @@
+/* 
+  Localizable.strings
+  GitHubRepoSearch
+
+  Created by Bojan Gaspar on 20/04/2020.
+  Copyright © 2020 UltraDev. All rights reserved.
+*/
+
+"general_ok" = "OK";
+"general_error" = "Error";
+"general_cancel" = "Cancel";
+
+"server_error" = "Server error with status code";
+"request_error" = "Request error with status code";
+"invalid_credentials" = "Invalid credentials!";
+"api_rate_limit_exceeded" = "API rate limit exceeded";
+"invalid_json" = "JSON parsing failed";
+"generic_error" = "Generic error!";
+
+/** Repositories Scene */
+"repositories" = "Repositories";
+"last_update_at" = "Last update at";
+"search" = "Search...";
+"no_data_fount" = "No repositories were found for given search criteria";
+
+/** Sort Scene */
+"sort" = "Sort";
+"save" = "Save";
+"sort_by" = "Sort by";
+"best_match" = "Best match";
+"stars" = "Stars";
+"forks" = "Forks";
+"updated" = "Updated";
+"order" = "Order";
+"asc" = "Ascending";
+"desc" = "Descending";
+
+/** Repository details Scene */
+"repository" = "Repository";
+"star" = "Star";
+"fork" = "Fork";
+"issues" = "Issues";
+"watchers" = "Watchers";
+"language" = "Language";
+"created_at" = "Created at";
+"updated_at" = "Updated at";
+"show_details" = "Show details";
+
+/** User details Scene */
+"username" = "Username";
+"email" = "Email";
+"location" = "Location";
+"company" = "Company";
+"bio" = "Bio";
+"public_repos" = "Public repos";
+"public_gists" = "Public gists";
+"followers" = "Followers";
+"following" = "Following";
