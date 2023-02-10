@@ -10,3 +10,21 @@ CocoaPods used in the project:
 * SwiftLint 
 
 To run the project in Xcode double click the GitHubRepoSearch.xcworkspace file.
+
+*Preview*
+
+Home screen:
+
+![home](./Images/home.png)
+
+Sort:
+
+![sort](./Images/sort.png)
+
+Repository details screen:
+
+![repo-details](./Images/repo-details.png)
+
+User details screen:
+
+![user-details](./Images/user-details.png)

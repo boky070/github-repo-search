@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol RepositoryTableViewCellDelegate: class {
+protocol RepositoryTableViewCellDelegate: AnyObject {
     func ownerTapped(owner: Owner)
 }
 

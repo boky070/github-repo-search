@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol RepositoryDetailsViewDelegate: class {
+protocol RepositoryDetailsViewDelegate: AnyObject {
     func ownerTapped(owner: Owner)
 }
 

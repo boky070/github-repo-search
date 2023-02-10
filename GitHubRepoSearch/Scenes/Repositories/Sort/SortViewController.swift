@@ -8,11 +8,11 @@
 
 import UIKit
 
-protocol SortViewControllerDelegate: class {
+protocol SortViewControllerDelegate: AnyObject {
     func didUpdateSortOptions(sortBy: SortType, order: SortType)
 }
 
-protocol SortDisplayLogic: class {
+protocol SortDisplayLogic: AnyObject {
     func displaySortOptions(_ sortOptions: [SortSection])
 }
 

@@ -14,7 +14,7 @@ struct UserItem {
     let value: String
 }
 
-protocol UserDetailsDisplayLogic: class {
+protocol UserDetailsDisplayLogic: AnyObject {
     func displayUser(_ owner: Owner)
 }
 

@@ -9,7 +9,7 @@
 import UIKit
 import SnapKit
 
-protocol RepositoriesDisplayLogic: class {
+protocol RepositoriesDisplayLogic: AnyObject {
     func displayRepositories(_ repositories: [Repository], for page: Int)
     func displayError(_ error: HttpClientError)
 }

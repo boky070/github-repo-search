@@ -9,7 +9,7 @@
 import UIKit
 import SafariServices
 
-protocol RepositoryDetailsDisplayLogic: class {
+protocol RepositoryDetailsDisplayLogic: AnyObject {
     func displayRepository(_ repository: Repository)
     func displayError(_ error: HttpClientError)
 }
